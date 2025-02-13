@@ -188,22 +188,20 @@
                                 style='vertical-align:top;' width='100%'>
                                 <tbody>
                                     <tr style='background-color: #000000; color: #FFFFFF;'>
-                                        <th colspan='2'
-                                            style='font-family:Poppins, sans-serif; text-align:center; padding: 10px 0; font-size: 16px;'>
+                                        <th colspan='2'style='font-family:Poppins, sans-serif; text-align:center; padding: 10px 0; font-size: 16px;'>
                                             Productos entregados</th>
                                     </tr>
                                     <tr style='background-color: #F8F8F8;'>
                                         <td align='left' style='font-size:0px;word-break:break-word;padding: 0 10px;'>
-                                            {{ST_trDigitalProductsCompleted}} <table cellpadding='0' cellspacing='0'
+                                            <table cellpadding='0' cellspacing='0'
                                                 width='100%' border='0'
                                                 style='color:#000000;font-family:Poppins, sans-serif;font-size:13px;line-height:22px;table-layout:fixed;width:100%;border:none;'>
                                                 <tbody>
                                                     <tr class='border-last'>
-                                                        <th width='50%' style='text-align:left; padding: 5px 0;'>
-                                                            PRODUCTO</th>
-                                                        <th width='25%' style='text-align:center; padding: 5px 0;'>SKU
-                                                        </th>
+                                                        <th width='50%' style='text-align:left; padding: 5px 0;'>PRODUCTO</th>
+                                                        <th width='25%' style='text-align:center; padding: 5px 0;'>SKU</th>
                                                     </tr>
+                                                    {{ST_trDigitalProductsCompleted}}
                                                 </tbody>
                                             </table>
                                         </td>
@@ -218,7 +216,10 @@
                 </tr>
             </tbody>
         </table>
-    </div> {{ST_trProducts}} {{ST_divSoldOutProducts}} <div
+    </div>
+    {{ST_trProducts}}
+    {{ST_divSoldOutProducts}} 
+    <div
         style='background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:750px;padding: 30px 0;'>
         <table align='center' border='0' cellpadding='0' cellspacing='0' role='presentation'
             style='background:#FFFFFF;background-color:#FFFFFF;width:100%;'>
